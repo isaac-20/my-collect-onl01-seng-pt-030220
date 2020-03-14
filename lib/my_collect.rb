@@ -9,4 +9,4 @@ def my_collect(array)
   names
 end
 
-my_collect() {|i| i.split(" ").first}
+my_collect(bill) {|i| i.split(" ").first}
