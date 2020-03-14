@@ -8,3 +8,5 @@ def my_collect(array)
   end
   my_collection
 end
+
+my_collect(my_collection) {|i| i.split(" ").first}
